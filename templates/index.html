@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../static/style.css" />
+    <title>SRE Assignment Akibuddin Ahmed</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="../static/logo.png" alt="SRE Assignment Akibuddin Ahmed" class="logo" />
+      {% if message %}
+      <p class="message">{{ message | safe }}</p>
+      {% endif %}
+      <form action="/submit" method="POST">
+        <div class="form-group">
+          <h3>Enter the City Name</h3>
+          <input
+            type="text"
+            name="City"
+            placeholder="Enter City Name:"
+          />
+        </div>
+    
+        <div class="form-group">
+          <h3>Enter the city population</h3>
+          <input
+            type="text"
+            name="CityPolulation"
+            placeholder="Enter City population:"
+          />
+        </div>
+        <input type="submit" value="Submit" class="btn" />
+      </form>
+      <h2>Relative URLs</h2>
+      <p><a href="/knowhealthindex">To know your city health index</a></p>
+      <p><a href="/knowpopulation">To know your city populationl</a></p>  
+    </div>
+  </body>
+</html>
