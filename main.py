@@ -7,8 +7,8 @@ conn = psycopg2.connect(
    database="appdb",
     user='appuser',
     password='strongpasswordapp',
-    host='10.27.106.12',
-    port= '30066'
+    host='',
+    port= '5432'
 )
 conn.autocommit = True
 cursor = conn.cursor() 
