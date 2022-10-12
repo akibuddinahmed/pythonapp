@@ -15,18 +15,13 @@
 # Install the app
   - if you require to set this up in a docker enviroment. 
     run the below command where docker-compose.yml file is located. The docker compose up command will start and run the entire app.
-    `docker-compose.yml`
+    `docker compose up`
   - To set the app in Kubernetes cluster: Run the below commands- 
         
-        - `kubectl apply -f app-claim0-persistentvolumeclaim.yaml`
-        - `kubectl apply -f app-deployment.yaml`
-        - `kubectl apply -f kubectl apply -f app-service.yaml`
+        - kubectl apply -f app-claim0-persistentvolumeclaim.yaml
+        - kubectl apply -f app-deployment.yaml
+        - kubectl apply -f kubectl apply -f app-service.yaml
   
 
 # Serve on localhost:5000
 python app.py
-```
-
-### Heroku Deployment Steps
-This app requires a PostgreSQL DB, 
-
