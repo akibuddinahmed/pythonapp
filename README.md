@@ -31,9 +31,9 @@
 
 Index Page to insert City and it's Population:
 
-Screenshot 2022-10-13 at 8.40.05 AM<img width="1789" alt="image" src="https://user-images.githubusercontent.com/73784434/195490451-09d37332-a121-4855-baff-aa5dfc6d87e1.png">
+<img width="1789" alt="image" src="https://user-images.githubusercontent.com/73784434/195490451-09d37332-a121-4855-baff-aa5dfc6d87e1.png">
 
 Get City population:
 
-Screenshot 2022-10-13 at 8.40.18 AM<img width="1789" alt="image" src="https://user-images.githubusercontent.com/73784434/195490599-3897c344-cc51-4683-9f02-314f4ca758e5.png">
+<img width="1789" alt="image" src="https://user-images.githubusercontent.com/73784434/195490599-3897c344-cc51-4683-9f02-314f4ca758e5.png">
 
