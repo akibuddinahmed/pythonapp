@@ -6,7 +6,7 @@
   - an endpoint for inserting or updating a city and its population
   - an endpoint for retrieving the population of a city
 
-## Pre-Requisit 
+## Pre-Requisite 
   - This app requires a PostgreSQL DB, set this details in `main.py`  
   - If you require to setup PostgreSQL for the first time in your K8s cluster, you may follow this article-https://phoenixnap.com/kb/postgresql-kubernetes 
   - Install Kompose using - https://kubernetes.io/docs/tasks/configure-pod-container/translate-compose-kubernetes/ 
@@ -26,3 +26,14 @@
   
 
 # Serve on localhost:5000
+
+## Artifacts
+
+Index Page to insert City and it's Population:
+
+Screenshot 2022-10-13 at 8.40.05 AM<img width="1789" alt="image" src="https://user-images.githubusercontent.com/73784434/195490451-09d37332-a121-4855-baff-aa5dfc6d87e1.png">
+
+Get City population:
+
+Screenshot 2022-10-13 at 8.40.18 AM<img width="1789" alt="image" src="https://user-images.githubusercontent.com/73784434/195490599-3897c344-cc51-4683-9f02-314f4ca758e5.png">
+
