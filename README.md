@@ -37,3 +37,6 @@ Get City population:
 
 <img width="1789" alt="image" src="https://user-images.githubusercontent.com/73784434/195490599-3897c344-cc51-4683-9f02-314f4ca758e5.png">
 
+Get City health index:
+
+<img width="1789" alt="image" src="https://user-images.githubusercontent.com/73784434/195490952-c0882ecd-0e3a-425e-a677-fb54bf19e801.png">
